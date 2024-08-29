@@ -15,12 +15,17 @@ const Desktop = () => {
           <span> :)</span>
         </h2>
         </div>
-        <img
-          className="linkedin-icon"
-          loading="lazy"
-          alt=""
-          src="./icons/Linkedin.svg"
-        />
+        
+        <a href="https://www.linkedin.com/in/renecacapuno/" target="_blank" rel="noopener noreferrer">
+          <img className="linkedin-icon" loading="lazy" alt="LinkedIn" src="./icons/Linkedin.svg" />
+        </a>
+        <a href="Reneca_Capuno_Resume.pdf" target="_blank" rel="noopener noreferrer">
+          <img className="resume-1-icon" loading="lazy" alt="Resume" src="./icons/resumeIcon.svg" />
+        </a>
+        <a href="https://github.com/rencap12" target="_blank" rel="noopener noreferrer">
+          <img className="github-icon" loading="lazy" alt="GitHub" src="./icons/Github.svg" />
+        </a>
+
         <section className="desktop-2-item" />
         <div className="im-a-senior-container">
           <p className="im-a-senior-studying-cs-at-th">
@@ -68,97 +73,58 @@ const Desktop = () => {
                 <span>Check out my projects!</span>
               </span>
             </p>
-            {/* <p className="hint-drag-or-">
-              <span className="span1">
-                <span>(</span>
-              </span>
-              <span>
-                <i className="hint-drag-">{`hint... drag <- or ->)`}</i>
-              </span>
-            </p> */}
           </span>
         </section>
         <section className="projects">
           <div className="project-titles">
-            <img
-            // className="minesweeper-1-icon"
-            // loading="lazy"
-            // alt=""
-            src="./project_pic/avl-tree_balnce2.png"
-            />
-            <div className="text_below_pic">AVL Tree</div>
-           </div>
-          <div className="project-titles">
-            <img
-              className="minesweeper-1-icon"
-              loading="lazy"
-              alt=""
-              src="./project_pic/Minesweeper.jpeg"
-            />
-            <div className="text_below_pic">Minesweeper</div>
+           <a href="https://github.com/rencap12/Projects/tree/main/project1_resub" target="_blank" rel="noopener noreferrer">
+              <img loading="lazy" alt="AVL Tree" src="./project_pic/avl-tree_balnce2.png" />
+              <div className="text_below_pic">AVL Tree</div>
+          </a>
           </div>
           <div className="project-titles">
-            <img
-              className="pagrankpic-1-icon"
-              loading="lazy"
-              alt=""
-              src="./project_pic/pagrankpic.jpg"
-            />
-            <div className="text_below_pic">Page Rank</div>
+           <a href="https://github.com/rencap12/Projects/tree/main/minesweeper" target="_blank" rel="noopener noreferrer">
+              <img loading="lazy" alt="Minesweeper" src="./project_pic/Minesweeper.jpeg" />
+              <div className="text_below_pic">Minesweeper</div>
+          </a>
           </div>
           <div className="project-titles">
-            <img
-              className="casmm-1-icon"
-              loading="lazy"
-              alt=""
-              src="./project_pic/casmm.png"
-            />
-            <div className="text_below_pic">CASMM - Workspace</div>
+          <a href="https://github.com/rencap12/Projects/tree/main/project2_pageRank" target="_blank" rel="noopener noreferrer">
+              <img loading="lazy" alt="Page Rank" src="./project_pic/pagrankpic.jpg" />
+              <div className="text_below_pic">Page Rank</div>
+          </a>
           </div>
           <div className="project-titles">
-            <img
-              className="nature-nexus-logo-1"
-              loading="lazy"
-              alt=""
-              src="./project_pic/nature-nexus-logo.png"
-            />
-            <div className="text_below_pic">Nature Nexus</div>
+          <a href="https://github.com/rencap12/Emerald-Project-20-3g-rc" target="_blank" rel="noopener noreferrer">
+              <img loading="lazy" alt="CASMM" src="./project_pic/casmm.png" />
+              <div className="text_below_pic">CASMM - Workspace</div>
+          </a>
           </div>
           <div className="project-titles">
-            <img
-              className="dogtinder-1-icon"
-              loading="lazy"
-              alt=""
-              src="./project_pic/dogTinder.png"
-            />
-            <div className="text_below_pic">Dog Tinder</div>
+          <a href="https://github.com/rencap12/itis-nature-nexus-backend" target="_blank" rel="noopener noreferrer">
+              <img loading="lazy" alt="Nature Nexus" src="./project_pic/nature-nexus-logo.png" />
+              <div className="text_below_pic">Nature Nexus</div>
+         </a>
+         </div>
+          <div className="project-titles">
+          <a href="https://github.com/rencap12/Dog-Tinder" target="_blank" rel="noopener noreferrer">
+              <img loading="lazy" alt="Dog Tinder" src="./project_pic/dogTinder.png" />
+              <div className="text_below_pic">Dog Tinder</div>
+          </a>
           </div>
           <div className="project-titles">
-            <img
-              className="cute-whale-1-icon"
-              loading="lazy"
-              alt=""
-              src="./project_pic/cute_whale.jpg"
-            />
-            <div className="text_below_pic">Whale Hub</div>
+          <a href="https://github.com/rencap12/WEB102-Whale_Hub" target="_blank" rel="noopener noreferrer">
+              <img loading="lazy" alt="Whale Hub" src="./project_pic/cute_whale.jpg" />
+              <div className="text_below_pic">Whale Hub</div>
+          </a>
           </div>
           <div className="project-titles">
-            <img
-              className="pokeball-1-icon"
-              loading="lazy"
-              alt=""
-              src="./project_pic/pokeball.png"
-            />
-            <div className="text_below_pic">Tap! Pokémon!</div>
+          <a href="https://github.com/rencap12/AND101-Pokemon-Display" target="_blank" rel="noopener noreferrer">
+              <img loading="lazy" alt="Tap! Pokémon!" src="./project_pic/pokeball.png" />
+              <div className="text_below_pic">Tap! Pokémon!</div>
+          </a>
           </div>
         </section>
-        <img
-          className="resume-1-icon"
-          loading="lazy"
-          alt=""
-          src="./icons/resume1.png"
-        />
-        <img className="github-icon" loading="lazy" alt="" src="./icons/Github.svg" />
       </div>
     );
   };
