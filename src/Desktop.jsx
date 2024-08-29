@@ -8,12 +8,13 @@ const Desktop = () => {
           alt=""
           src="IMG_1188.jpg"
         />
-        <div className="desktop-2-child" />
+        <div className="desktop-2-child">
         <h2 className="hi-im-reneca-container">
           <span>{`Hi! I’m ` }</span>
           <b>Reneca Capuno</b>
           <span> :)</span>
         </h2>
+        </div>
         <img
           className="linkedin-icon"
           loading="lazy"
@@ -79,84 +80,76 @@ const Desktop = () => {
         </section>
         <section className="projects">
           <div className="project-titles">
-            <div className="minesweeper">AVL Tree</div>
-            <div className="link-box" />
             <img
-            className="minesweeper-1-icon"
-            loading="lazy"
-            alt=""
+            // className="minesweeper-1-icon"
+            // loading="lazy"
+            // alt=""
             src="./project_pic/avl-tree_balnce2.png"
             />
+            <div className="text_below_pic">AVL Tree</div>
            </div>
           <div className="project-titles">
-            <div className="minesweeper">Minesweeper</div>
-            <div className="link-box" />
             <img
               className="minesweeper-1-icon"
               loading="lazy"
               alt=""
               src="./project_pic/Minesweeper.jpeg"
             />
+            <div className="text_below_pic">Minesweeper</div>
           </div>
-          <div className="project-titles1">
-            <div className="page-rank">Page Rank</div>
-            <div className="link-box1" />
+          <div className="project-titles">
             <img
               className="pagrankpic-1-icon"
               loading="lazy"
               alt=""
               src="./project_pic/pagrankpic.jpg"
             />
+            <div className="text_below_pic">Page Rank</div>
           </div>
-          <div className="project-titles2">
-            <div className="casmm-workspace">CASMM - Workspace</div>
-            <div className="link-box2" />
+          <div className="project-titles">
             <img
               className="casmm-1-icon"
               loading="lazy"
               alt=""
               src="./project_pic/casmm.png"
             />
+            <div className="text_below_pic">CASMM - Workspace</div>
           </div>
-          <div className="project-titles3">
-            <div className="nature-nexus">Nature Nexus</div>
-            <div className="link-box3" />
+          <div className="project-titles">
             <img
               className="nature-nexus-logo-1"
               loading="lazy"
               alt=""
               src="./project_pic/nature-nexus-logo.png"
             />
+            <div className="text_below_pic">Nature Nexus</div>
           </div>
-          <div className="project-titles4">
-            <div className="dog-tinder">Dog Tinder</div>
-            <div className="link-box4" />
+          <div className="project-titles">
             <img
               className="dogtinder-1-icon"
               loading="lazy"
               alt=""
               src="./project_pic/dogTinder.png"
             />
+            <div className="text_below_pic">Dog Tinder</div>
           </div>
-          <div className="project-titles5">
-            <div className="whale-hub">Whale Hub</div>
-            <div className="link-box5" />
+          <div className="project-titles">
             <img
               className="cute-whale-1-icon"
               loading="lazy"
               alt=""
               src="./project_pic/cute_whale.jpg"
             />
+            <div className="text_below_pic">Whale Hub</div>
           </div>
-          <div className="project-titles6">
-            <div className="tap-pokmon">Tap! Pokémon!</div>
-            <div className="link-box6" />
+          <div className="project-titles">
             <img
               className="pokeball-1-icon"
               loading="lazy"
               alt=""
               src="./project_pic/pokeball.png"
             />
+            <div className="text_below_pic">Tap! Pokémon!</div>
           </div>
         </section>
         <img
