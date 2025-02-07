@@ -19,7 +19,9 @@ const Desktop = () => {
         <a href="https://www.linkedin.com/in/renecacapuno/" target="_blank" rel="noopener noreferrer">
           <img className="linkedin-icon" loading="lazy" alt="LinkedIn" src="./icons/Linkedin.svg" />
         </a>
-        <a href="Reneca_Capuno_Resume_Current_Update.pdf" target="_blank" rel="noopener noreferrer">
+        {/* <a href="/Reneca_Capuno_Resume_Current_Update.pdf" target="_blank" rel="noopener noreferrer"> */}
+        <a href={`${process.env.PUBLIC_URL}/Reneca_Capuno_Resume_Current_Update.pdf`} target="_blank" rel="noopener noreferrer">
+
           <img className="resume-1-icon" loading="lazy" alt="Resume" src="./icons/resumeIcon.svg" />
         </a>
         <a href="https://github.com/rencap12" target="_blank" rel="noopener noreferrer">
