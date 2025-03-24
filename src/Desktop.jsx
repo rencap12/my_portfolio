@@ -20,7 +20,7 @@ const Desktop = () => {
           <img className="linkedin-icon" loading="lazy" alt="LinkedIn" src="./icons/Linkedin.svg" />
         </a>
         {/* <a href="/Reneca_Capuno_Resume_Current_Update.pdf" target="_blank" rel="noopener noreferrer"> */}
-        <a href={`${process.env.PUBLIC_URL}/Reneca_Capuno_Resume_Current_Update.pdf`} target="_blank" rel="noopener noreferrer">
+        <a href={`${process.env.PUBLIC_URL}/Reneca_Capuno_Resume.pdf`} target="_blank" rel="noopener noreferrer">
 
           <img className="resume-1-icon" loading="lazy" alt="Resume" src="./icons/resumeIcon.svg" />
         </a>
