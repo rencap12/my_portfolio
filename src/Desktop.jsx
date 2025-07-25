@@ -32,7 +32,7 @@ const Desktop = () => {
         <div className="im-a-senior-container">
           <p className="im-a-senior-studying-cs-at-th">
             <span>
-              <span>I’m a Senior studying CS at the </span>
+              <span>I’m a New Grad CS from the </span>
             </span>
           </p>
           <p className="university-of-florida-and-an">
